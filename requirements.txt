@@ -38,3 +38,4 @@ urllib3==2.0.3
 Werkzeug==2.3.4
 wtf==0.1
 WTForms==3.0.1
+Flask-MySQLdb==0.2.0
