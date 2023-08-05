@@ -1,5 +1,6 @@
 flask
 gunicorn
+flask-mysqldb
 
 blinker==1.6.2
 cachelib==0.10.2
