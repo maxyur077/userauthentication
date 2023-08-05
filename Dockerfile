@@ -1,6 +1,7 @@
 FROM python:3.8.2
 
 RUN apt-get update && apt-get install --yes pipenv
+COPY requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 WORKDIR /usr/src/app
 
